@@ -1,0 +1,31 @@
+{
+    "type": "project",
+    "name": "piedweb/skeleton",
+    "description": "Install Pied Web CMS and default directories to build your app.",
+    "homepage": "https://piedweb.com",
+    "license": "MIT",
+    "require": {
+        "symfony/flex": "^1.1",
+        "symfony/skeleton": "^4.1"
+    },
+    "config": {
+        "sort-packages": false
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+     "authors": [
+        {
+            "name": "Robin D.",
+            "email": "contact@robin-d.fr",
+            "homepage": "https://www.robin-d.fr/"
+        }
+    ]
+}
