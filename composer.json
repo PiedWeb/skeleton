@@ -4,6 +4,7 @@
     "description": "Install Pied Web CMS and default directories to build your app.",
     "homepage": "https://piedweb.com",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "symfony/flex": "^1.1",
         "symfony/skeleton": "^4.1"
