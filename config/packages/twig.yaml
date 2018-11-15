@@ -14,4 +14,5 @@ twig:
         img_dir: "%media_dir_absolute%/"
         logo_alt: "%app.name%"
         app_contact_email: "%app.contact.email%"
+        app_color: "%app.color"
 #        app_contact_adress: "%app.contact.adress%"

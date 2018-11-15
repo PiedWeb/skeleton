@@ -10,7 +10,7 @@ parameters:
     app.email:
     app.email.sender: 'no-reply@piedvert.com'
     app.email.sender_name: '%app.name%'
-    app.contact:
+    app.color: '#1fa67a'
     app.contact.email: 'contact@piedweb.com'
     app.contact.adress: ''
     liip_imagine.mozjpeg.binary: cjpeg
