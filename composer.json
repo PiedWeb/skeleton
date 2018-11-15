@@ -7,7 +7,8 @@
     "minimum-stability": "stable",
     "require": {
         "symfony/flex": "^1.1",
-        "symfony/skeleton": "^4.1"
+        "symfony/skeleton": "^4.1",
+        "piedweb/cms-bundle": "dev-master@dev"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
