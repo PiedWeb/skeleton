@@ -1,0 +1,7 @@
+fos_user:
+  db_driver: orm
+  firewall_name: main
+  user_class: 'PiedWeb\CMSBundle\Entity\User'
+  from_email:
+      address: "%app.email.sender%"
+      sender_name: "%app.email.sender_name%"

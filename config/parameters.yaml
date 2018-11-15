@@ -1,0 +1,21 @@
+parameters:
+    media_dir: media
+    media_dir_absolute: '%kernel.project_dir%/var/%media_dir%'
+    web_dir: "%kernel.project_dir%/public"
+    locale: 'fr'
+    app.locale: '%locale%'
+    app.locales: fr|en
+    app.dir: "%kernel.project_dir%/public"
+    app.name: 'Pied Web'
+    app.email:
+    app.email.sender: 'no-reply@piedvert.com'
+    app.email.sender_name: '%app.name%'
+    app.contact:
+    app.contact.email: 'contact@piedweb.com'
+    app.contact.adress: ''
+    liip_imagine.mozjpeg.binary: cjpeg
+    liip_imagine.jpegoptim.stripAll: true
+    liip_imagine.jpegoptim.max: 80
+    liip_imagine.jpegoptim.progressive: true
+    liip_imagine.jpegoptim.binary: jpegoptim
+#    liip_imagine.jpegoptim.tempDir: string

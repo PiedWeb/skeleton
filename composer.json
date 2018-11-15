@@ -4,10 +4,18 @@
     "description": "Install Pied Web CMS and default directories to build your app.",
     "homepage": "https://piedweb.com",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "symfony/flex": "^1.1",
         "symfony/skeleton": "^4.1"
+    },
+    "require-dev": {
+        "symfony/debug-pack": "*",
+        "symfony/dotenv": "*",
+        "symfony/maker-bundle": "^1.7",
+        "symfony/profiler-pack": "*",
+        "symfony/test-pack": "*",
+        "symfony/web-server-bundle": "*"
     },
     "config": {
         "sort-packages": false

@@ -1,0 +1,41 @@
+sonata_admin:
+    title: 'Admin'
+    title_logo: assets/logo_title.png
+    templates:
+        show:       "@PiedWebCMS/admin/show_page.html.twig"
+    dashboard:
+        blocks:
+            - { type: sonata.admin.block.admin_list, position: left }
+        groups:
+            app.admin.group.product:
+                label: Pages
+                label_catalogue: Pages
+                items:
+                    - piedweb.admin.page
+                    - piedweb.admin.faq
+                    - piedweb.admin.media
+
+            app.admin.group.user:
+                label: Utilisateurs
+                label_catalogue: Utilisateurs
+                items:
+                    - piedweb.admin.user
+    options:
+        lock_protection: true
+    assets:
+        extra_stylesheets:
+            - bundles/sonatatranslation/css/sonata-translation.css
+
+
+sonata_translation:
+    locales: [fr, en]
+    default_locale: '%locale%'
+    gedmo:
+        enabled: true
+
+sonata_block:
+    blocks:
+        sonata.admin.block.admin_list:
+            contexts: [admin]
+
+        sonata_translation.block.locale_switcher: ~
