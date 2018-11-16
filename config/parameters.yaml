@@ -13,6 +13,7 @@ parameters:
     app.color: '#1fa67a'
     app.contact.email: 'contact@piedweb.com'
     app.contact.adress: ''
+    app.default_page_template: '@@PiedWebCMS/page/page.html.twig'
     liip_imagine.mozjpeg.binary: cjpeg
     liip_imagine.jpegoptim.stripAll: true
     liip_imagine.jpegoptim.max: 80

@@ -7,12 +7,11 @@ sonata_admin:
         blocks:
             - { type: sonata.admin.block.admin_list, position: left }
         groups:
-            app.admin.group.product:
+            app.admin.group.page:
                 label: Pages
                 label_catalogue: Pages
                 items:
                     - piedweb.admin.page
-                    - piedweb.admin.faq
                     - piedweb.admin.media
 
             app.admin.group.user:
