@@ -14,6 +14,7 @@ parameters:
     app.contact.email: 'contact@piedweb.com'
     app.contact.adress: ''
     app.default_page_template: '@@PiedWebCMS/page/page.html.twig'
+    app.default_footer_template: '@@PiedWebCMS/page/_footer.html.twig'
     liip_imagine.mozjpeg.binary: cjpeg
     liip_imagine.jpegoptim.stripAll: true
     liip_imagine.jpegoptim.max: 80
