@@ -1,3 +1,5 @@
+parameters: #test
+
 imports:
     - { resource: parameters.yaml }
 
