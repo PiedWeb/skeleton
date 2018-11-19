@@ -38,3 +38,6 @@ sonata_block:
             contexts: [admin]
 
         sonata_translation.block.locale_switcher: ~
+
+        sonata.admin.block.search_result:
+            contexts:   [admin]
