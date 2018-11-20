@@ -31,9 +31,12 @@ mainConfig.name = 'main';
 
 Encore.reset();
 
+// second configuration : permit to copy files without versioning (like logo_title.png required
+// for sonata_admin.
 Encore
     .setOutputPath('public/assets')
     .setPublicPath('/assets')
+    // La ligne suivant est ''inutile'', elle sert uniquement à faire exister cette deuxième config
     .addEntry('logo_title.png', './node_modules/piedweb-devoluix-theme/src/img/logo_title.png')
     .copyFiles({
         from: './node_modules/piedweb-devoluix-theme/src/img',

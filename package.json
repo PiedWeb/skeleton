@@ -8,8 +8,9 @@
     "babel-plugin-root-import": "^6.1.0",
     "bootstrap.native-loader": "^1.0.7",
     "node-sass": "^4.10.0",
-    "piedweb-devoluix-theme": "0.0.7",
+    "piedweb-tyrol-free-bootstrap-4-theme": "^0",
     "sass-loader": "^7.1.0",
+    "file-loader": "^2.0.0",
     "uglifyjs-webpack-plugin": "^2.0.1"
   }
 }
